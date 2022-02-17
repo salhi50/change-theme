@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- id name: fluidTag  -->
+<html style="height: 100%;" class="flex fd-col align-center justify-center full-width">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - page</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/correct.css" />
+    <link rel="stylesheet" href="css/wspace.css">
+  </head>
+  <body style="padding: 0 1.2rem;">
+  </div>
+    <div class="back index-2 full-width pd-10 rounded d-block max-100 text-center" style="background: #f7f7f7;font-size: 1.5rem;font-weight: 500;border: 1px solid #e5e5e5;">
+      <span id="bar">Color :</span>
+    <span id="chain" class="pdl-5 pdr-5 capital" style="color: #0f8cfa;"></span>
+    </div>
+    <button class="mgt-1h5rem btn bleu-bg d-block full-width rounded w-color index-2 max-100 pdt-10 pdb-10 pdl-20 pdr-20 fw-500 capital" onclick="change()">change background</button>
+    <button class="mgt-1h5rem btn green-bg d-block rounded w-color index-2 max-100 pdt-10 pdb-10 pdl-20 pdr-20 fw-500 capital full-width" onclick="auto()" id="cont">auto</button>
+    <div class="menu bg-section index-4 full-width max-100 pd-15" style="display: none;border-bottom-left-radius: .25rem;border-bottom-right-radius: .25rem;">
+      <h6 class="mgb-4">duration</h6>
+      <ul class="flex flex-wrap">
+        <li class="pdt-5 fl-1 rounded text-center pdb-5 pdl-10 cursor pdr-10 white-bg" onclick="one()" style="border: 1px solid #e7e7e7;margin: .5rem 0;">0.2s</li>
+        <li class="pdt-5 fl-1 rounded text-center pdb-5 pdl-10 cursor pdr-10 white-bg" onclick="two()" style="border: 1px solid #e7e7e7;margin: .5rem;">0.5s</li>
+        <li class="pdt-5 fl-1 rounded text-center pdb-5 pdl-10 cursor pdr-10 white-bg" onclick="three()" style="border: 1px solid #e7e7e7;margin: .5rem;">1s</li>
+        <li class="pdt-5 fl-1 rounded text-center pdb-5 pdl-10 cursor pdr-10 white-bg" onclick="four()" style="border: 1px solid #e7e7e7;margin: .5rem;">5s</li>
+      </ul>
+      <div class="cutom mgt-6">
+        <h6 class="mgb-4">custom</h6>
+      <div class="inpu flex align-center">
+        <input class="full-width rounded white-bg fl-1 mgr-half-1rem" type="text" style=" border: 1px solid #e7e7e7;" placeholder="1000 = 1s" id="get">
+        <button class="btn pdl-10 pdr-10 green-bg w-color rounded" onclick="costume()" style="height: 33px;padding: 0 13px !important;">Set</button>
+      </div>
+      </div>
+    </div>
+    <button class="mgt-1h5rem btn red-bg full-width d-none rounded w-color index-2 max-100 pdt-10 pdb-10 pdl-20 pdr-20 fw-500 capital full-width" id="stop" onclick="auto()">stop</button>
+  </body>
+  <script src="begin.js"></script>
+</html>
